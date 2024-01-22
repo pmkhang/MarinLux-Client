@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar {
+   width: 8px;
+   background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+   border-radius: 30px;
+   background-color: #fad6b0;
+}
+div.relative.w-full.text-gray-700,
+div.relative.w-full.text-gray-700 input {
+   outline: none;
+   background-color: white;
+}
+div.relative.w-full.text-gray-700 input {
+   width: 100%;
+}
+.rs-anim-fade.rs-anim-in.rs-picker-daterange-menu.rs-picker-menu.placement-bottom-start {
+   left: 1200px !important;
+   top: 560px !important;
+}
+button.rs-btn.rs-btn-primary.rs-btn-sm {
+   background-color: #3498ff !important;
+}
+button.rs-btn.rs-btn-primary.rs-btn-sm:hover {
+   background-color: #61affd !important;
+}
+
+@media (max-width: 1024px) {
+   #sticky {
+      position: unset;
+   }
+}
+
+button.line-through {
+   background-color: rgba(246, 112, 112, 0.195);
+   border-radius: 10px;
+   cursor: no-drop;
+}
+

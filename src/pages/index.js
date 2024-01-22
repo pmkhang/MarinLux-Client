@@ -1,0 +1,13 @@
+export { default as Home } from './Home';
+export { default as AboutUs } from './AboutUs';
+export { default as ContactUs } from './ContactUs';
+export { default as ListYacht } from './ListYacht';
+export { default as DetailYacht } from './DetailYacht';
+export { default as Login } from './Login';
+export { default as Register } from './Register';
+export { default as Payment } from './Payment';
+export { default as UserProfile } from './UserProfile';
+export { default as UserBooking } from './UserBooking';
+export { default as BookingDetail } from './BookingDetail';
+export { default as RefundPolicy } from './RefundPolicy';
+export { default as Feedback } from './Feedback';
